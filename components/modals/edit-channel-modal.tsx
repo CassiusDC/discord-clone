@@ -90,7 +90,6 @@ export const EditChannelModal = () => {
     }
 
     const handleClose = () => {
-        form.reset();
         onClose();
     }
 
